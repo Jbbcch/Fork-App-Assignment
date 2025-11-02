@@ -46,13 +46,14 @@
 }
 
 .testimonial-image {
-  max-height: 50%;
+  height: 50%;
   margin-bottom: 30px;
 }
 
 .testimonial-image img {
   object-fit: contain;
-  margin: 0 auto;
+  max-width: 320px;
+  max-height: 70px;
 }
 
 .testimonial-desc {
