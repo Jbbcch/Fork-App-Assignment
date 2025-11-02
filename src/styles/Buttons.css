@@ -1,0 +1,15 @@
+.button-purple {
+    width: 145px;
+    height: 37px;
+    color: #FFFFFF;
+    background: #8D81AC;
+    border: none;
+    border-radius: 40px;
+}
+
+.button-purple:hover {
+    color: #8D81AC;
+    background: #FFFFFF;
+    border: 1px solid #8D81AC;
+    border-radius: 40px;
+}
