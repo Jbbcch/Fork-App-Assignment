@@ -3,6 +3,7 @@ import Header from './pages/Header';
 import Present from './pages/Present';
 import Features from './pages/Features';
 import Testimonials from './pages/Testimonials';
+import Pricing from './pages/Pricing';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Present />
       <Features />
       <Testimonials />
+      <Pricing />
     </div>
   );
 }

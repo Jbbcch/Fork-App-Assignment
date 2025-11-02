@@ -7,9 +7,29 @@
     border-radius: 40px;
     border: 1px solid #8D81AC;
     z-index: 100;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .button-purple:hover {
     color: #8D81AC;
     background: #FFFFFF;
+}
+
+.button-opacity {
+    position: relative;
+    height: 37px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 40px;
+    border: none;
+    z-index: 100;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+}
+
+.button-opacity:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #FFFFFF;
 }

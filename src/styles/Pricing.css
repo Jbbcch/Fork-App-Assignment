@@ -1,0 +1,134 @@
+.pricing-section {
+  width: 100%;
+  padding: 80px 24px;
+  background-color: #463048;
+  background-image: url('pricing_bg.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-title {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+  margin-bottom: 112px;
+}
+
+.plan-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.plan-card {
+  position: relative;
+  width: 267px;
+  height: 457px;
+  background-color: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  overflow: hidden;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.plan-card:hover {
+  transform: scale(1.15);
+  background-color: #463048;
+}
+
+.plan-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 97px;
+  background-color: rgba(255, 255, 255, 0.06); 
+}
+
+.plan-name {
+  position: absolute;
+  top: 36px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.plan-price {
+  position: absolute;
+  top: 127px;
+  left: 0;
+  width: 100%;
+  color: white;
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 90px;
+}
+
+.plan-length {
+  position: absolute;
+  top: 204px;
+  left: 0;
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 16px;
+}
+
+.plan-divider {
+  position: absolute;
+  top: 260px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 5px;
+  background-color: #8D81AC; /* #8D81AC */
+}
+
+.plan-description {
+  position: absolute;
+  top: 301px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  color: white;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  line-height: 18px;
+  max-width: 230px;
+}
+
+.plan-card button {
+  position: absolute;
+  top: 378px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160px;
+  height: 42px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .plan-cards{
+        flex-direction: column;
+    }
+}
