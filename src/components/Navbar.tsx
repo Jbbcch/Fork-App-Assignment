@@ -15,15 +15,15 @@ function Navbar() {
         <nav className='navbar'>
             <div className='logo-container' onMouseEnter={() => setLogoHovered(true)} onMouseLeave={() => setLogoHovered(false)}>
                 <img src={ logoHovered ? '/src/assets/logo-hover.png' : 'logo.png'} className='logo' />
-                <a className='montserrat'>FORKIO</a>
+                <a className='montserrat700'>FORKIO</a>
             </div>
-            <div className='links montserrat'>
+            <div className='links montserrat700'>
                 <a href='#'>Overview</a>
                 <a href='#'>About Fork</a>
                 <a href='#'>Buying Options</a>
                 <a href='#'>Support</a>
             </div>
-            <button className='button-purple montserrat'>Buy Now</button>
+            <button className='button-purple montserrat700'>Buy Now</button>
 
             <div className='dropdown'>
                 <button onClick={toggleDropdown}>
@@ -32,7 +32,7 @@ function Navbar() {
                     <div className="rectangle large"></div>
                 </button>
                 {dropdownOpen && (
-                <div className='dropdown-menu montserrat'>
+                <div className='dropdown-menu montserrat700'>
                     <a href='#'>Overview</a>
                     <a href='#'>About Fork</a>
                     <a href='#'>Buying Options</a>
