@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Header from './pages/Header';
 import Present from './pages/Present';
 import Features from './pages/Features';
+import Testimonials from './pages/Testimonials';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Present />
       <Features />
+      <Testimonials />
     </div>
   );
 }
