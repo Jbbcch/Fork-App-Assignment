@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Header from './pages/Header';
 import Present from './pages/Present';
+import Features from './pages/Features';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Header />
       <Present />
+      <Features />
     </div>
   );
 }
