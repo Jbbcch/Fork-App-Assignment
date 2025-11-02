@@ -81,6 +81,12 @@
     .left-column {
         width: 100%;
     }
+
+    .inner-row {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+    }
     
     .right-column {
         width: 100%;
