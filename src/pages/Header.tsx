@@ -15,7 +15,6 @@ function Header() {
                 <p className="bottom-text montserrat">Unlimited 30-Days Trial Period</p>
             </div>
         </div>
-        
     );
 }
 
