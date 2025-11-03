@@ -26,7 +26,7 @@
 }
 
 .logo-container a {
-    margin-left: 50px;
+    margin-left: 55px;
 }
 
 .navbar .logo {
@@ -74,6 +74,10 @@
         background-color: #27262A;
     }
 
+    .navbar .button-purple {
+        margin-left: 30px;
+    }
+
     .logo-container {
         width: auto;
     }
@@ -108,7 +112,7 @@
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 167%; 
+        margin-top: 159%;
         align-items: flex-start;
         right: 0;
         background-color: #333333;
@@ -141,6 +145,23 @@
 
     .large {
         width: 26px; 
+    }
+
+        /* Transformations when hamburger is toggled to 'open' */
+    .open {
+    background: #FFFFFF; /* Optional: you can change the color when toggled */
+    }
+
+    .open:nth-child(1) {
+        opacity: 0;
+    }
+
+    .open:nth-child(2) {
+        transform: rotate(45deg); 
+    }
+
+    .open:nth-child(3) { 
+        transform: translateY(-12px) rotate(-45deg); 
     }
 }
 

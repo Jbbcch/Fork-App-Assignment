@@ -28,9 +28,9 @@ function Navbar() {
 
             <div className='dropdown'>
                 <button onClick={toggleDropdown}>
-                    <div className='rectangle small'></div>
-                    <div className='rectangle large'></div>
-                    <div className='rectangle large'></div>
+                    <div className={`rectangle small ${dropdownOpen ? 'open' : ''}`}></div>
+                    <div className={`rectangle large ${dropdownOpen ? 'open' : ''}`}></div>
+                    <div className={`rectangle large ${dropdownOpen ? 'open' : ''}`}></div>
                 </button>
                 {dropdownOpen && (
                 <div className='dropdown-menu montserrat700'>
