@@ -16,20 +16,33 @@
 .logo-container {
     display: flex;
     align-items: center;
-    color: #8D81AC;
     justify-content: space-between;
+    color: #8D81AC;
+    transition: color 0.3s;
 }
 
 .logo-container:hover {
-    display: flex;
-    align-items: center;
     color: #FFFFFF;
+}
+
+.logo-container a {
+    margin-left: 50px;
 }
 
 .navbar .logo {
     width: 43px;
     height: 41px;
-    margin-right: 10px;
+    position: absolute; 
+    opacity: 1;
+    transition: opacity 0.3s ease; 
+}
+
+.navbar .logo-hide {
+    width: 43px;
+    height: 41px;
+    position: absolute; 
+    opacity: 0;
+    transition: opacity 0.3s ease; 
 }
 
 .navbar .links {
@@ -45,6 +58,7 @@
 .navbar .links a {
     color: #8D81AC;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
 .navbar .links a:hover {
@@ -87,6 +101,7 @@
         width: 26px;
         height: 26px; 
         cursor: pointer;
+        transition: color 0.3s;
     }
 
     .dropdown-menu {
@@ -106,6 +121,7 @@
         color: #FFFFFF;
         text-decoration: none;
         padding: 10px 0;
+        transition: color 0.3s;
     }
 
     .dropdown-menu a:hover {

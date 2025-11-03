@@ -13,8 +13,9 @@ function Navbar() {
 
     return (
         <nav className='navbar'>
-            <div className='logo-container' onMouseEnter={() => setLogoHovered(true)} onMouseLeave={() => setLogoHovered(false)}>
-                <img src={ logoHovered ? '/src/assets/logo-hover.png' : 'logo.png'} className='logo' />
+            <div className='logo-container' onMouseEnter={() => setLogoHovered(true) } onMouseLeave={() => setLogoHovered(false)}>
+                <img src='logo.png' className={`logo${logoHovered ? '-hide' : ''}`} />
+                <img src='/src/assets/logo-hover.png' className={`logo${logoHovered ? '' : '-hide'}`} />
                 <a className='montserrat700'>FORKIO</a>
             </div>
             <div className='links montserrat700'>
